@@ -7,7 +7,7 @@
 
 namespace CheatManager
 {
-	std::map<const std::string, const std::function<bool()>> Cheats;
+	static std::map<const std::string, const std::function<bool()>> Cheats;
 
 	void Register(const std::string, std::function<bool()>);
 	bool Call(const std::string);
