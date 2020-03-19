@@ -21,5 +21,5 @@ CheatManager::Register("CheatName", []() -> bool
 
 **Call them like so:**
 ```cpp
-const bool Success = CheatManager::Call("CheatManager");
+const bool Success = CheatManager::Call("CheatName");
 ```
